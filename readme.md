@@ -1,6 +1,7 @@
 一个暂时的readme：关于如何快速上手跑模型
 
   ##必读##
+  
 1. 先在terminal中运行这样一段代码：
    sudo chmod -R 777 .
    sudo chmod -R 777 [path/to/interpreter]
@@ -18,6 +19,7 @@
 5. 运行run_all.py，等待模型return后即可在./result文件夹中找到最终生成结果。
 
   ##选读##
+  
 6. 如需调试单个模型，则需根据./AnimeGANv2/test.py以及./Mask_RCNN/predict.py中的长“#”分割线备注，注释掉相应语句，再对模型对应的test.py或者predict.py进行运行。
 
 7. 文件的保存路径在test.py和predict.py较为靠前的位置，找不到可搜索关键字“dir”，由对应路径可找到模型中间产物的对应位置，方便调试。
