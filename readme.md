@@ -25,7 +25,7 @@
 7. 文件的保存路径在test.py和predict.py较为靠前的位置，找不到可搜索关键字“dir”，由对应路径可找到模型中间产物的对应位置，方便调试。
 
 
-  ##模型效果##
+  ##模型效果##（图片加载要等一下）
 ![IMG_9987](https://github.com/DrXin2002/dachuang-final/assets/131842894/0bb5ce4e-d95b-4faf-b8ed-eecdfc2b6358)
 
 ![IMG_9999](https://github.com/DrXin2002/dachuang-final/assets/131842894/00ed48b7-46a4-44bc-a064-56ae9843182d)
@@ -34,8 +34,6 @@
 
 ![IMG_9997](https://github.com/DrXin2002/dachuang-final/assets/131842894/d89659e7-5293-4218-aa3d-28b5a3f44373)
 
-
-![IMG_0012](https://github.com/DrXin2002/dachuang-final/assets/131842894/82090278-e66c-4d6f-b779-4b744382fd02)  ![IMG_0013](https://github.com/DrXin2002/dachuang-final/assets/131842894/cb4d9758-d3b5-44bd-8411-87d73b776d08)
 
 
 
