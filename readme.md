@@ -17,7 +17,6 @@
    
 5. 运行run_all.py，等待模型return后即可在./result文件夹中找到最终生成结果。
 
-
   ##选读##
 6. 如需调试单个模型，则需根据./AnimeGANv2/test.py以及./Mask_RCNN/predict.py中的长“#”分割线备注，注释掉相应语句，再对模型对应的test.py或者predict.py进行运行。
 
