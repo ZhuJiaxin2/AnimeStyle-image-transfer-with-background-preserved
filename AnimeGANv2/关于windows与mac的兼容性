@@ -1,0 +1,2 @@
+test.py第33行和第34行，windows电脑需要将device = torch.device("mps”)替换成注释部分：device = args.device。
+Mac电脑不需要替换，可以直接跑。
