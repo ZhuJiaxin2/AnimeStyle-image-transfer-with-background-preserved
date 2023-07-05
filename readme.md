@@ -35,7 +35,8 @@
 ![WechatIMG134](https://github.com/DrXin2002/dachuang-final/assets/131842894/ad9339c9-88a2-43fa-a122-bbd6a8ef0e82)
 
 
-[体现背景保持]  原图|风格化全图|背景保持的人像风格迁移
+[体现背景保持]  
+|  原图  |  风格化全图  |  背景保持的人像风格迁移  |
 ![IMG_9987](https://github.com/DrXin2002/dachuang-final/assets/131842894/0bb5ce4e-d95b-4faf-b8ed-eecdfc2b6358)
 
 
