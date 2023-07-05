@@ -1,3 +1,5 @@
+
+
 一个暂时的readme：关于如何快速上手跑模型
 
   ##必读##
@@ -14,9 +16,11 @@
 3. windows用户需修改./AnimeGANv2/test.py以及./Mask_RCNN/predict.py，将其中的device修改为设备对应的device。
    （windows设备对应device我都留了注释，只要把AnimeGANv2中的‘mps’和Mask_RCNN中的'cpu‘替换掉就可以）
 
-4. 修改run_all.py中的interpreter_path（参考1.）
+4. 阅读./Mask_RCNN/readme.md，并根据指示下载模型预训练权重文件放入./Mask_RCNN/save_weights
+
+5. 修改run_all.py中的interpreter_path（参考1.）
    
-5. 运行run_all.py，等待模型return后即可在./result文件夹中找到最终生成结果。
+6. 运行run_all.py，等待模型return后即可在./result文件夹中找到最终生成结果。
 
   ##选读##
   
