@@ -26,13 +26,19 @@
 
 
   ##模型效果##（图片加载要等一下）
+![WechatIMG135](https://github.com/DrXin2002/dachuang-final/assets/131842894/cd114bee-9fb6-45c2-8d40-3ad685c06e6b)
+
+![WechatIMG136](https://github.com/DrXin2002/dachuang-final/assets/131842894/4e7f1d3a-3bd4-4777-9ffa-e56ab0ceff5a)
+
+![WechatIMG133](https://github.com/DrXin2002/dachuang-final/assets/131842894/74e84d04-4331-443b-bed3-524dfd8bd045)
+
+![WechatIMG134](https://github.com/DrXin2002/dachuang-final/assets/131842894/ad9339c9-88a2-43fa-a122-bbd6a8ef0e82)
+
+
+[体现背景保持]  原图|风格化全图|背景保持的人像风格迁移
 ![IMG_9987](https://github.com/DrXin2002/dachuang-final/assets/131842894/0bb5ce4e-d95b-4faf-b8ed-eecdfc2b6358)
 
-![IMG_9999](https://github.com/DrXin2002/dachuang-final/assets/131842894/00ed48b7-46a4-44bc-a064-56ae9843182d)
 
-![IMG_9998](https://github.com/DrXin2002/dachuang-final/assets/131842894/69517a29-7b01-4626-b428-ca3261d14d43)
-
-![IMG_9997](https://github.com/DrXin2002/dachuang-final/assets/131842894/d89659e7-5293-4218-aa3d-28b5a3f44373)
 
 
 
