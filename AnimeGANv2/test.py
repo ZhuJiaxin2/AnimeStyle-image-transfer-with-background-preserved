@@ -41,7 +41,7 @@ def test(args):
     os.makedirs(args.output_dir, exist_ok=True)
 
     for image_name in sorted(os.listdir(args.input_dir)):
-        if os.path.splitext(image_name)[-1].lower() not in [".jpg", ".png", ".bmp", ".tiff", "jpeg", ".JPG"]:
+        if os.path.splitext(image_name)[-1].lower() not in [".jpg", ".png", ".bmp", ".tiff", ".jpeg", ".JPG"]:
             continue
             
         image = load_image(os.path.join(args.input_dir, image_name), args.x32)
