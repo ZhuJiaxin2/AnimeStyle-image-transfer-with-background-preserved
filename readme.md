@@ -22,10 +22,10 @@
 ```
    请将`[path/to/interpreter]`替换成自己的编译器路径，例如我的是：`/Users/zhujiaxin/miniforge3/envs/studydeeplearning/bin/python`
 
-2. 将原图放入`./input`，请使用jpg、png、jpeg等常用格式
+2. 将原图放入`./input`，请使用jpg、png、jpeg等常用格式\
    *P.S.如果运行设备为mac，有的时候图片不会显示后缀名。这样的图片模型是无法读出的，请将其发送到微信传输助手后转存，即完成“无后缀”→“.jpg”的转换*
    
-3. windows用户需修改`./AnimeGANv2/test.py`以及`./Mask_RCNN/predict.py`，将其中的`device`修改为设备对应的device。
+3. windows用户需修改`./AnimeGANv2/test.py`以及`./Mask_RCNN/predict.py`，将其中的`device`修改为设备对应的device。\
    *（windows设备对应device我都留了注释，只要把AnimeGANv2中的‘mps’和Mask_RCNN中的'cpu‘替换掉就可以）*
 
 4. 阅读`./Mask_RCNN/readme.md`，并根据指示下载模型预训练权重文件放入`./Mask_RCNN/save_weights`
@@ -56,8 +56,10 @@
 
 从左到右依次为：
 * 原图
-* 风格化全图（人像风格化，但可以看出背景的建筑很模糊）
-* 背景保持的人像风格迁移（人像风格化，同时背景建筑与原图别无二致）
+* 风格化全图
+  * 人像风格化，但可以看出背景的建筑很模糊
+* 背景保持的人像风格迁移
+  * 人像风格化，同时背景建筑与原图别无二致
 
 ![IMG_9987](https://github.com/DrXin2002/dachuang-final/assets/131842894/0bb5ce4e-d95b-4faf-b8ed-eecdfc2b6358)
 
