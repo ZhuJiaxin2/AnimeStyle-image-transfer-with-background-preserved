@@ -1,22 +1,39 @@
-一个暂时的readme：关于如何快速上手跑模型
+一个暂时的readme
+
+*模型功能*
+
+1. 识别并分割原图中的人像（支持单人和多人）
+  
+2. 保留背景，并对原图中的人像进行风格迁移
+
+
+*模型结构*
+
+<img width="666" alt="截屏2023-07-05 上午10 04 58" src="https://github.com/DrXin2002/dachuang-final/assets/131842894/3c6f11ba-c4b3-4eef-90a0-019d7398563b">
+
+
+
+*关于如何快速上手跑模型*
 
   ##必读##
   
-1. 先在terminal中运行这样一段代码：
-   sudo chmod -R 777 .
-   sudo chmod -R 777 [path/to/interpreter]
+1. 先在terminal中运行这样一段代码：\
+   sudo chmod -R 777 .  \
+   sudo chmod -R 777 [path/to/interpreter]\
    请将[path/to/interpreter]替换成自己的编译器路径，例如我的是：/Users/zhujiaxin/miniforge3/envs/studydeeplearning/bin/python
 
-2. 将原图放入./input，请使用jpg、png、jpeg等常用格式
+2. 将原图放入./input，请使用jpg、png、jpeg等常用格式\
    P.S.如果运行设备为mac，有的时候图片不会显示后缀名。
        这样的图片模型是无法读出的，请将其发送到微信传输助手后转存，即完成“无后缀”→“.jpg”的转换
    
-3. windows用户需修改./AnimeGANv2/test.py以及./Mask_RCNN/predict.py，将其中的device修改为设备对应的device。
+3. windows用户需修改./AnimeGANv2/test.py以及./Mask_RCNN/predict.py，将其中的device修改为设备对应的device。\
    （windows设备对应device我都留了注释，只要把AnimeGANv2中的‘mps’和Mask_RCNN中的'cpu‘替换掉就可以）
 
-4. 修改run_all.py中的interpreter_path（参考1.）
+4. 阅读./Mask_RCNN/readme.md，并根据指示下载模型预训练权重文件放入./Mask_RCNN/save_weights
+
+5. 修改run_all.py中的interpreter_path（参考1.）
    
-5. 运行run_all.py，等待模型return后即可在./result文件夹中找到最终生成结果。
+6. 运行run_all.py，等待模型return后即可在./result文件夹中找到最终生成结果。
 
   ##选读##
   

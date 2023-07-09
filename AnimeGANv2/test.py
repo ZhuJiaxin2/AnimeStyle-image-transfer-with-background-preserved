@@ -9,8 +9,10 @@ from torchvision.transforms.functional import to_tensor, to_pil_image
 
 from model import Generator
 
+######windows用户删掉这段######
 from torch import mps
 torch.mps.set_per_process_memory_fraction(0.0)
+#############################
 
 torch.backends.cudnn.enabled = False
 torch.backends.cudnn.benchmark = False
