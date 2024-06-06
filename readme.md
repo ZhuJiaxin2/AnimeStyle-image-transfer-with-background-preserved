@@ -15,12 +15,13 @@
 
 ### 必读
 
-1. 先在terminal中运行这样一段代码：
+~~1. 先在terminal中运行这样一段代码：~~
 ```
    sudo chmod -R 777 .
    sudo chmod -R 777 [path/to/interpreter]
 ```
    请将`[path/to/interpreter]`替换成自己的编译器路径，例如我的是：`/Users/zhujiaxin/miniforge3/envs/studydeeplearning/bin/python`
+【删掉第一步】
 
 2. 将原图放入`./input`，请使用jpg、png、jpeg等常用格式\
    *P.S.如果运行设备为mac，有的时候图片不会显示后缀名。这样的图片模型是无法读出的，请将其发送到微信传输助手后转存，即完成“无后缀”→“.jpg”的转换*
